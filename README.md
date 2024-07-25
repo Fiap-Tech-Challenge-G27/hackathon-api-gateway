@@ -1,1 +1,1 @@
-# hackathon-api-gateway
+# hackathon-terraform-apigateway
