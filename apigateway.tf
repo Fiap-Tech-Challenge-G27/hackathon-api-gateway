@@ -48,8 +48,6 @@ resource "aws_apigatewayv2_integration" "http_proxy_integration_basic" {
     "GET/appointments",
     "POST/patients",
     "GET/patients",
-    "POST/patients/auth/login",
-    "POST/doctors/auth/login"
   ])
 
   api_id             = aws_apigatewayv2_api.hackathon-apigateway.id
